@@ -13,7 +13,7 @@ const blueButton=document.getElementById('blue-button');
 
 
         const greenButton=document.getElementById('make-green-button');
-        //anonymous function
+        //anonymous function er niyom
         greenButton.onclick=function m(){
             document.body.style.background='green'
         }
