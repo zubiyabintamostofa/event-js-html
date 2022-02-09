@@ -18,3 +18,23 @@ const blueButton=document.getElementById('blue-button');
             document.body.style.background='green'
         }
     
+
+
+        const goldenButton=document.getElementById('make-goldenrod');
+        goldenButton.addEventListener('click',makeGoldenrod)
+        function makeGoldenrod(){
+         document.body.style.background='darkCyan'
+        }
+//addevenlisener
+
+
+        const paleButton=document.getElementById('make-pale')
+        paleButton.addEventListener('click',function makePale()
+        {
+           document.body.style.backgroundColor='paleTurquoise' 
+        })
+
+        //direct shutcut
+        document.getElementById('make-t').addEventListener('click' ,function(){
+            document.body.style.backgroundColor='Tomato'
+        })
